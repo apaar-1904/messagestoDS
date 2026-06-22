@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background: #d8c7a3;
+    font-family: "Georgia", serif;
+    color: #3a2d1d;
+    line-height: 1.9;
+}
+
+.page {
+    max-width: 700px;
+    margin: auto;
+    background: #fffdf6;
+    padding: 35px 25px;
+    border-radius: 8px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+    background-image:
+        repeating-linear-gradient(
+            to bottom,
+            transparent,
+            transparent 34px,
+            rgba(100,100,255,0.08) 35px
+        );
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.date {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 30px;
+    color: #7a6651;
+}
+
+.message {
+    font-size: 20px;
+    white-space: pre-line;
+}
+
+a {
+    color: #6a3b12;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .page {
+        padding: 25px 18px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    .message {
+        font-size: 18px;
+    }
+}
