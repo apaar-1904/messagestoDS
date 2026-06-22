@@ -1,49 +1,49 @@
 body {
     margin: 0;
     padding: 20px;
-    background: #d8c7a3;
-    font-family: "Georgia", serif;
-    color: #3a2d1d;
-    line-height: 1.9;
+    background: #d4c3a3;
+    font-family: Georgia, serif;
 }
 
 .page {
     max-width: 700px;
     margin: auto;
-    background: #fffdf6;
+    background: #fffdf5;
     padding: 35px 25px;
-    border-radius: 8px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+
     background-image:
         repeating-linear-gradient(
             to bottom,
             transparent,
-            transparent 34px,
-            rgba(100,100,255,0.08) 35px
+            transparent 32px,
+            rgba(100,100,255,0.1) 33px
         );
 }
 
 h1 {
     text-align: center;
-    font-size: 32px;
-    margin-bottom: 5px;
+    color: #4d3926;
 }
 
 .date {
     text-align: center;
+    color: #777;
+    margin-bottom: 25px;
     font-style: italic;
-    margin-bottom: 30px;
-    color: #7a6651;
 }
 
 .message {
-    font-size: 20px;
-    white-space: pre-line;
+    font-size: 22px;
+    line-height: 1.8;
+    color: #3c2b1a;
 }
 
 a {
-    color: #6a3b12;
+    color: #5d3c1a;
     text-decoration: none;
+    font-size: 20px;
 }
 
 a:hover {
@@ -51,19 +51,11 @@ a:hover {
 }
 
 @media (max-width: 600px) {
-    body {
-        padding: 10px;
-    }
-
     .page {
         padding: 25px 18px;
     }
 
-    h1 {
-        font-size: 26px;
-    }
-
     .message {
-        font-size: 18px;
+        font-size: 20px;
     }
 }
